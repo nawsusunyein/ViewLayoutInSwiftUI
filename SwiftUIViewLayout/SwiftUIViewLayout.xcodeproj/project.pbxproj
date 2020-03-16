@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2357BB75241F209800FB94DF /* VStackAndHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB74241F209800FB94DF /* VStackAndHStack.swift */; };
+		2357BB77241F27F500FB94DF /* AlignmentAndSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB76241F27F500FB94DF /* AlignmentAndSpacing.swift */; };
+		2357BB7B241F2D9800FB94DF /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB7A241F2D9800FB94DF /* ZStackView.swift */; };
+		2357BB7D241F2FE900FB94DF /* ZStackIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB7C241F2FE900FB94DF /* ZStackIndexView.swift */; };
 		23EB73F8241B9C3B00E45E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73F7241B9C3B00E45E95 /* AppDelegate.swift */; };
 		23EB73FA241B9C3B00E45E95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73F9241B9C3B00E45E95 /* SceneDelegate.swift */; };
 		23EB73FC241B9C3C00E45E95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73FB241B9C3C00E45E95 /* ContentView.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2357BB74241F209800FB94DF /* VStackAndHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackAndHStack.swift; sourceTree = "<group>"; };
+		2357BB76241F27F500FB94DF /* AlignmentAndSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAndSpacing.swift; sourceTree = "<group>"; };
+		2357BB7A241F2D9800FB94DF /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		2357BB7C241F2FE900FB94DF /* ZStackIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackIndexView.swift; sourceTree = "<group>"; };
 		23EB73F4241B9C3B00E45E95 /* SwiftUIViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EB73F7241B9C3B00E45E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23EB73F9241B9C3B00E45E95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +110,14 @@
 				23EB73F7241B9C3B00E45E95 /* AppDelegate.swift */,
 				23EB73F9241B9C3B00E45E95 /* SceneDelegate.swift */,
 				23EB73FB241B9C3C00E45E95 /* ContentView.swift */,
+				2357BB74241F209800FB94DF /* VStackAndHStack.swift */,
+				2357BB7A241F2D9800FB94DF /* ZStackView.swift */,
+				2357BB76241F27F500FB94DF /* AlignmentAndSpacing.swift */,
 				23EB73FD241B9C5600E45E95 /* Assets.xcassets */,
 				23EB7402241B9C5600E45E95 /* LaunchScreen.storyboard */,
 				23EB7405241B9C5600E45E95 /* Info.plist */,
 				23EB73FF241B9C5600E45E95 /* Preview Content */,
+				2357BB7C241F2FE900FB94DF /* ZStackIndexView.swift */,
 			);
 			path = SwiftUIViewLayout;
 			sourceTree = "<group>";
@@ -268,8 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				23EB73F8241B9C3B00E45E95 /* AppDelegate.swift in Sources */,
+				2357BB75241F209800FB94DF /* VStackAndHStack.swift in Sources */,
+				2357BB7B241F2D9800FB94DF /* ZStackView.swift in Sources */,
+				2357BB77241F27F500FB94DF /* AlignmentAndSpacing.swift in Sources */,
 				23EB73FA241B9C3B00E45E95 /* SceneDelegate.swift in Sources */,
 				23EB73FC241B9C3C00E45E95 /* ContentView.swift in Sources */,
+				2357BB7D241F2FE900FB94DF /* ZStackIndexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
