@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-let componentsList = ["VStack and HStack","Alignment and Spacing","Z Stack","Z Stack Index"]
+let componentsList = ["VStack and HStack","Alignment and Spacing","Z Stack","Z Stack Index","Different View Types","Views In Loop Using ForEach","Custom Object View For Loop","Custom Frame","GeometryReader View","Content Outside SafeArea"]
 
 struct ContentView: View {
     var body: some View {
@@ -42,6 +42,47 @@ struct ContentView: View {
                         .cornerRadius(10)
                         .foregroundColor(Color.white)
                 }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:DifferentViewTypes()){
+                    Text(componentsList[4])
+                        .padding(10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .foregroundColor(Color.white)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:ViewsInLoopForEach()){
+                    Text(componentsList[5])
+                        .padding(10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .foregroundColor(Color.white)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:CustomObjectViewLoopForEach()){
+                    Text(componentsList[6])
+                        .padding(10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .foregroundColor(Color.white)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:CustomFrame()){
+                    Text(componentsList[7])
+                        .padding(10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .foregroundColor(Color.white)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:GeometryReaderView()){
+                    Text(componentsList[8])
+                        .padding(10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .foregroundColor(Color.white)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:ContentOutsideSafeArea()){
+                    Text(componentsList[9])
+                        .padding(10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
             }
         }
         

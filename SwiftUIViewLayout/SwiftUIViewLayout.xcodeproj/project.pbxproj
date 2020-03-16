@@ -11,6 +11,12 @@
 		2357BB77241F27F500FB94DF /* AlignmentAndSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB76241F27F500FB94DF /* AlignmentAndSpacing.swift */; };
 		2357BB7B241F2D9800FB94DF /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB7A241F2D9800FB94DF /* ZStackView.swift */; };
 		2357BB7D241F2FE900FB94DF /* ZStackIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB7C241F2FE900FB94DF /* ZStackIndexView.swift */; };
+		2357BB7F241F340F00FB94DF /* DifferentViewTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB7E241F340F00FB94DF /* DifferentViewTypes.swift */; };
+		2357BB81241F362D00FB94DF /* ViewsInLoopForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB80241F362D00FB94DF /* ViewsInLoopForEach.swift */; };
+		2357BB83241F3ADA00FB94DF /* CustomObjectViewLoopForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB82241F3ADA00FB94DF /* CustomObjectViewLoopForEach.swift */; };
+		2357BB85241F3FE400FB94DF /* CustomFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB84241F3FE400FB94DF /* CustomFrame.swift */; };
+		2357BB87241F44C400FB94DF /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB86241F44C400FB94DF /* GeometryReaderView.swift */; };
+		2357BB89241F467100FB94DF /* ContentOutsideSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BB88241F467000FB94DF /* ContentOutsideSafeArea.swift */; };
 		23EB73F8241B9C3B00E45E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73F7241B9C3B00E45E95 /* AppDelegate.swift */; };
 		23EB73FA241B9C3B00E45E95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73F9241B9C3B00E45E95 /* SceneDelegate.swift */; };
 		23EB73FC241B9C3C00E45E95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73FB241B9C3C00E45E95 /* ContentView.swift */; };
@@ -43,6 +49,12 @@
 		2357BB76241F27F500FB94DF /* AlignmentAndSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAndSpacing.swift; sourceTree = "<group>"; };
 		2357BB7A241F2D9800FB94DF /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 		2357BB7C241F2FE900FB94DF /* ZStackIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackIndexView.swift; sourceTree = "<group>"; };
+		2357BB7E241F340F00FB94DF /* DifferentViewTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentViewTypes.swift; sourceTree = "<group>"; };
+		2357BB80241F362D00FB94DF /* ViewsInLoopForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsInLoopForEach.swift; sourceTree = "<group>"; };
+		2357BB82241F3ADA00FB94DF /* CustomObjectViewLoopForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomObjectViewLoopForEach.swift; sourceTree = "<group>"; };
+		2357BB84241F3FE400FB94DF /* CustomFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFrame.swift; sourceTree = "<group>"; };
+		2357BB86241F44C400FB94DF /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		2357BB88241F467000FB94DF /* ContentOutsideSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOutsideSafeArea.swift; sourceTree = "<group>"; };
 		23EB73F4241B9C3B00E45E95 /* SwiftUIViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EB73F7241B9C3B00E45E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23EB73F9241B9C3B00E45E95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,11 +125,17 @@
 				2357BB74241F209800FB94DF /* VStackAndHStack.swift */,
 				2357BB7A241F2D9800FB94DF /* ZStackView.swift */,
 				2357BB76241F27F500FB94DF /* AlignmentAndSpacing.swift */,
+				2357BB84241F3FE400FB94DF /* CustomFrame.swift */,
 				23EB73FD241B9C5600E45E95 /* Assets.xcassets */,
 				23EB7402241B9C5600E45E95 /* LaunchScreen.storyboard */,
 				23EB7405241B9C5600E45E95 /* Info.plist */,
 				23EB73FF241B9C5600E45E95 /* Preview Content */,
 				2357BB7C241F2FE900FB94DF /* ZStackIndexView.swift */,
+				2357BB7E241F340F00FB94DF /* DifferentViewTypes.swift */,
+				2357BB80241F362D00FB94DF /* ViewsInLoopForEach.swift */,
+				2357BB82241F3ADA00FB94DF /* CustomObjectViewLoopForEach.swift */,
+				2357BB86241F44C400FB94DF /* GeometryReaderView.swift */,
+				2357BB88241F467000FB94DF /* ContentOutsideSafeArea.swift */,
 			);
 			path = SwiftUIViewLayout;
 			sourceTree = "<group>";
@@ -280,11 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				23EB73F8241B9C3B00E45E95 /* AppDelegate.swift in Sources */,
+				2357BB81241F362D00FB94DF /* ViewsInLoopForEach.swift in Sources */,
+				2357BB85241F3FE400FB94DF /* CustomFrame.swift in Sources */,
 				2357BB75241F209800FB94DF /* VStackAndHStack.swift in Sources */,
+				2357BB83241F3ADA00FB94DF /* CustomObjectViewLoopForEach.swift in Sources */,
+				2357BB87241F44C400FB94DF /* GeometryReaderView.swift in Sources */,
+				2357BB7F241F340F00FB94DF /* DifferentViewTypes.swift in Sources */,
 				2357BB7B241F2D9800FB94DF /* ZStackView.swift in Sources */,
 				2357BB77241F27F500FB94DF /* AlignmentAndSpacing.swift in Sources */,
 				23EB73FA241B9C3B00E45E95 /* SceneDelegate.swift in Sources */,
 				23EB73FC241B9C3C00E45E95 /* ContentView.swift in Sources */,
+				2357BB89241F467100FB94DF /* ContentOutsideSafeArea.swift in Sources */,
 				2357BB7D241F2FE900FB94DF /* ZStackIndexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
