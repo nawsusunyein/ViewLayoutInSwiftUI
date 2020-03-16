@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-let componentsList = ["VStack and HStack","Alignment and Spacing","Z Stack","Z Stack Index","Different View Types","Views In Loop Using ForEach","Custom Object View For Loop","Custom Frame","GeometryReader View","Content Outside SafeArea"]
+let componentsList = ["VStack and HStack","Alignment and Spacing","Z Stack","Z Stack Index","Different View Types","Views In Loop Using ForEach","Custom Object View For Loop","Custom Frame","GeometryReader View"]
 
 struct ContentView: View {
     var body: some View {
@@ -77,12 +77,13 @@ struct ContentView: View {
                         .cornerRadius(10)
                         .foregroundColor(Color.white)
                 }.buttonStyle(PlainButtonStyle())
-                NavigationLink(destination:ContentOutsideSafeArea()){
-                    Text(componentsList[9])
+                NavigationLink(destination:SecondContentView()){
+                    Text("Second Content View")
                         .padding(10)
                         .background(Color.blue)
                         .cornerRadius(10)
-                }
+                        .foregroundColor(Color.white)
+                }.buttonStyle(PlainButtonStyle())
             }
         }
         
